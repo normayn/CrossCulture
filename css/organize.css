@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "Circular";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://a0.muscache.com/airbnb/static/airbnb-o2/fonts/Circular_Air-Bold-d74b6eea213711f97770fccaf37a7644.eot?#") format("eot"), url("https://a2.muscache.com/airbnb/static/airbnb-o2/fonts/Circular_Air-Bold-ba3e389678777af817295255589ca6f5.woff") format("woff"), url("https://a0.muscache.com/airbnb/static/airbnb-o2/fonts/Circular_Air-Bold-3831f8bc07e9e70a9b42b4be3ea1a32c.svg") format("svg");
+}
+
+.titlediv{
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+.titlediv > h2{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: black;
+}
+
+.titlediv > h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #a1a0a3;
+    margin-bottom: 50px;
+}
+
+.contentdiv{
+    background-color: #f5f5f5;
+    padding-left: 15%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.formdiv{
+    box-sizing: border-box;
+    width: 80%;
+}
+
+.formdiv > .formrow{
+    margin-top: 20px;
+}
+
+.formdiv > .formrow > .rowtitle{
+
+     font-family: Circular;
+     color: black;
+     font-size: 16px;
+ }
+
+.formdiv > .formrow > .onright > div{
+    width: 160px;
+    float: left;
+}
+
+.formdiv > .formrow > .onright{
+    height: 50px;
+}
+
+.formdiv > .formrow > .row > .onright > div > label {
+    width: 150px; !important;
+    border-radius: 3px;
+    border: 1px solid #D1D3D4;
+    font-size: 14px;
+    font-family: Circular;
+    color: #565a5c;
+}
+
+input.radio:empty {
+    margin-left: -999px;
+    visibility: hidden;
+}
+
+/* style label */
+input.radio:empty ~ label {
+    position: relative;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: -15px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input.radio:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 3px 0 0 3px;
+}
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+
+input.radio:hover:not(:checked) ~ label {
+    color: #888;
+}
+
+/* toggle on */
+input.radio:checked ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #9CE2AE;
+    background-color: #4DCB6D;
+}
+
+input.radio:checked ~ label {
+    color: #777;
+}
+
+.forminput {
+    width: 80%;
+}
+
+.inputfield {
+    width: 100%;
+    line-height: 1.5;
+}
+
+/* Map */
+#map {
+    height: 300px;
+    position: relative;
+
+}
+#locationField, #controls {
+    position: relative;
+    width: 480px;
+}
+#autocomplete {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.label {
+    text-align: right;
+    font-weight: bold;
+    width: 100px;
+    color: #303030;
+}
+#address {
+    border: 1px solid #000090;
+    background-color: #f0f0ff;
+    width: 480px;
+    padding-right: 2px;
+    position: relative;
+}
+#address td {
+    font-size: 10pt;
+}
+.field {
+    width: 99%;
+}
+.slimField {
+    width: 80px;
+}
+.wideField {
+    width: 200px;
+}
+#locationField {
+    height: 20px;
+    margin-bottom: 2px;
+}
+
+.btn-group > .btn-primary{
+    color: slategray;
+    background-color: white;
+    border-color: slategray;
+    width: 100px;
+}
+
+.input-group-lg > .input-group-addon{
+    height: 34px !important;
+}
+
+.input-group-lg > .form-control{
+    height: 34px !important;
+    font-style: normal !important;
+    font-size: 14px !important;
+}

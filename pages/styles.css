@@ -1,0 +1,174 @@
+p{margin:0 10px 10px}
+a{padding:5px; text-decoration:none; color:#000000;}
+div#header{background-color:#F3F2ED;}
+div#header h1{height:80px;line-height:80px;margin:0;padding-left:10px;}
+div#container{text-align:left}
+div#content p{line-height:1.4}
+div#navigation{background:#F6F0E0;}
+div#navigation ul{margin:15px 0; padding:0; list-style-type:none;}
+div#navigation li{margin-bottom:5px;}
+div#extra{background:#CCC8B3;}
+div#footer{background:#BFBD93;}
+div#footer p{margin:0;padding:5px 10px}
+div#container{width:auto;margin:0 auto}
+div#content{float: left; width: 75%}
+div#navigation{float:right;width:30%;}
+div#extra{float:right;clear:right;width:30%;}
+div#footer{clear:both;width:100%}
+div#reg{padding-left: 20%; padding-right: 20%; padding-top: 2%}
+
+
+.show-read-more .more-text{
+    display: none;
+}
+
+
+div#buttonculture{
+    z-index: 10;
+    position: absolute;
+    padding-top: 20px;
+    max-height: 720px;
+}
+div#sidebar{
+    /*float: left;*/
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 720px;
+    /*width: 24%;*/
+    /*margin-left: 0%;*/
+}
+.denem{
+    /*background-color: #5bc0de;*/
+    background: url("../images/deneme.jpg") no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 37px;
+    -webkit-border-radius: 37px;
+    -moz-border-radius: 37px;
+    border: none;
+    position: relative;
+}
+.denem:hover{
+    /*background-image: none;*/
+    /*background-color: white;*/
+    /*content: attr(data-hover);*/
+}
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    margin-top: 30px;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.denem1{
+    /*background-color: red;*/
+    background: url("../images/chinese.gif") no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 37px;
+    -webkit-border-radius: 37px;
+    -moz-border-radius: 37px;
+    border: none;
+}
+.denem1:hover{
+    /*background-image: none;*/
+    /*background-color: white;*/
+}
+.denem2{
+    /*background-color: blue;*/
+    background: url("../images/greece.gif") no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 37px;
+    -webkit-border-radius: 37px;
+    -moz-border-radius: 37px;
+    border: none;
+}
+.denem2:hover{
+    /*background-image: none;*/
+    /*background-color: white;*/
+}
+.denem3{
+    /*background-color: #c0a16b;*/
+    background: url("../images/india.png") no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 37px;
+    -webkit-border-radius: 37px;
+    -moz-border-radius: 37px;
+    border: none;
+
+}
+.denem3:hover{
+    /*background-image: none;*/
+    /*background-color: white;*/
+}
+.denem4{
+    /*background-color: #4CAF50;*/
+    background: url("../images/italy.png") no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 37px;
+    -webkit-border-radius: 37px;
+    -moz-border-radius: 37px;
+    border: none;
+}
+.denem4:hover{
+    /*background-image: none;*/
+    /*background-color: white;*/
+}
+.denem5{
+    /*background-color: purple;*/
+    background: url("../images/Turkish.png") no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 37px;
+    -webkit-border-radius: 37px;
+    -moz-border-radius: 37px;
+    border: none;
+}
+.denem5:hover{
+    /*background-image: none;*/
+    /*background-color: white;*/
+}
+
+.side-container{
+    margin-bottom: 10px;
+
+}
+
+.side-title{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    /*background-color: #99b3cc;*/
+    color: black;
+    float: left;
+    width: 280px;
+    font-weight: bold;
+}
+.side-img {
+    margin-left: 0;
+    width: 290px;
+
+}
+
+

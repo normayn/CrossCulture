@@ -1,0 +1,7 @@
+
+#navigation > .container {
+    border-style: solid; !important;
+    border-color: gainsboro; !important;
+    border-width: 1px; !important;
+    background-color: #cfced1; !important;
+}
